@@ -1,0 +1,154 @@
+.logo{
+    width: 200px;
+    margin: 15px;
+}
+
+@font-face{
+    src: url('fonts/hoteltransilvania.ttf');
+    font-family: hotel;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: hotel;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.book{
+    border: 0;
+    outline: none !important;
+    padding: 15px;
+    margin: 30px;
+    background: rgb(75, 40, 139);
+    cursor: pointer;
+    font-family: hotel;
+    font-size: 1.4em;
+    color: white;
+    float: right;
+}
+
+.container{
+    margin: 0;
+    width: 70%;
+    float: right;
+}
+
+.imgbox{
+    margin: 0;
+    width: 30%;
+    float: left;
+}
+.myform{
+    padding: 50px;
+}
+
+.myform .form-in{
+    padding-bottom: 20px;
+}
+.myform input[type="text"], .myform input[type="tel"], .myform input[type="email"]{
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    font-family: hotel;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.myform input[type="date"]{
+    border: 0;
+    padding: 15px;
+    font-size: 1.5em;
+    font-family: hotel;
+
+}
+
+.button{
+    font-family: hotel;
+    font-size: 1.5em;
+    padding: 15px;
+    color: white;
+    background: rgb(75, 40, 139);
+    border: 0px;
+}
+::placeholder{
+    font-family: hotel;
+}
+
+.right_container{
+    width: 60%;
+}
+
+
+/*home page*/
+
+.hcontain1{
+    margin: 0;
+    width: 71.6%;
+    float: left;
+}
+
+.dcontain1{
+    margin: 0;
+    width: 28.3%;
+    float: left;
+}
+
+.hcontain1t{
+    margin: 0;
+    padding: 0% 0% 3% 3%;
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.hcontain1m{
+    margin: 0;
+    padding: 0% 0% 0% 3%;
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.hcontain1b{
+    margin: 0;
+    padding: 3% 0% 0% 3%;
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.hcontain2{
+    margin: 0;
+    width: 66.66%;
+    float: right;
+}
+
+.dcontain2{
+    margin: 0;
+    width: 33.33%;
+    float: left;
+}
+
+.hcontain2t{
+    margin: 0;
+    padding: 0% 3% 3% 0%;
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+.hcontain2b{
+    margin: 0;
+    padding: 0% 3% 0% 0%;
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+
